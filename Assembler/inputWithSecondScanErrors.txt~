@@ -1,0 +1,14 @@
+;non declared 'Direct' operand
+prn I_AM_NOT_DECLARED
+
+;non existing register 
+add r67, STR
+
+;invalid immidiate addressing
+prn #-5hahaha
+
+;invalid register name
+prn r9
+
+;non numeric parameter to .data
+LENGTH: .data 6,-9,15,find the error here, 3,4,6
